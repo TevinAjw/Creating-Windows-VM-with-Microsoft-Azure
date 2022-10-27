@@ -1,5 +1,5 @@
 # Creating-Windows-VM-with-Microsoft-Azure
-Hello Guys, Today I will be showing you how to create, and ping commands in a virtual machine using Microsoft Azure
+Hello Guys, Today I will be showing you how to create, and ping commands in a virtual machine using Microsoft Azure.
 
 SECTION 1: Create a Resource Group
 
@@ -13,7 +13,7 @@ Once clicked, you will notice that the section is empty. Let's fix that, click o
 
 ![Create-VM-rg3](https://user-images.githubusercontent.com/116504189/198410887-3ffca5ae-06cd-4576-bb57-b3a890d3b2c9.png)
 
-What we will focus on is the name of the resource group. This name can literally be anything you want it to be (I would suggest something like "vm-lab" if you have multiple resource groups). When you've typed the desired name, click "review + create" at the bottom.
+What we will focus on is the name of the resource group. This name can literally be anything you want it to be (I would suggest something like "vm-lab" if you have multiple resource groups). For the region, we will select "EAST US".  When you've typed the desired name, and selected the region, click "review + create" at the bottom.
 
 ![Create-VM-rg4](https://user-images.githubusercontent.com/116504189/198411157-8bee2b52-4327-4de4-893f-db4030d4aaac.png)
 
@@ -37,7 +37,7 @@ For the research group tab, we will select the resource group we had previously 
 
 ![Create-VM-win5](https://user-images.githubusercontent.com/116504189/198411885-7a3c36d1-b623-4c9a-a0e8-7f50dc06f2dc.png)
 
-This part of the section, we will only focus on the "image", we will be working with a window, so let's select "windows 10".
+This part of the section, we will only focus on the "image", we will be working with Windows, so let's select "Windows 10".
 
 ![Create-VM-win6](https://user-images.githubusercontent.com/116504189/198412140-5016d58b-87e7-4c0f-8fa7-16021d6c8da9.png)
 
@@ -45,7 +45,7 @@ For the size, we want to select something with at least more than one cpu. I cho
 
 ![Create-VM-win7](https://user-images.githubusercontent.com/116504189/198412695-d5b5af6e-6d6e-4aa3-a03c-d7f8bbe9b201.png)
 
-Once we've received our "validation passed" screen, click "create". CONGRATS!! You've just created your Windows virtual machine :). You'll want to wait until everything is fully deployed before continuing any further. Look for these next pages.
+Once we've received our "validation passed" screen, click "create". CONGRATS!! You've just created your Windows virtual machine :). You'll want to wait until everything is fully deployed before continuing any further, so look for these next pages.
 
 ![Create-VM-win8](https://user-images.githubusercontent.com/116504189/198413617-4be4837d-f277-472b-8ed4-60c94eafdde5.png)
 
@@ -78,4 +78,28 @@ Next, we will input our username, and password which we created in the previous 
 After entering your credentials, you will see a pop up. Simply click "yes" to connect.
 
 ![Create-VM-rd4](https://user-images.githubusercontent.com/116504189/198414837-b1da81a0-fb1b-4b20-93d0-74498b9dac80.png)
+
+FOURTH STEP: Command Prompts
+
+Once we've made it into our virtual machine, type "cmd" in the Windows searchbar, and click the program. You should see a black screened window pop up.
+
+![IMG_5554](https://user-images.githubusercontent.com/116504189/198415498-2002b869-3637-42d1-8cbc-f8d704f9672d.jpg)
+
+![IMG_5555](https://user-images.githubusercontent.com/116504189/198415515-5a6127ad-75f6-43ba-b4a2-2b0a8442ace8.jpg)
+
+![IMG_5556](https://user-images.githubusercontent.com/116504189/198415557-4ed0b99b-4c41-4c22-acc4-449722061642.jpg)
+
+FINAL SECTION: Ping Ping Ping!
+
+Here we will do a simple command promp called "ping", type in "ping" press the spacebar and paste your public ip address, and let's see what happens.
+
+![IMG_5558](https://user-images.githubusercontent.com/116504189/198415892-8162a441-79d1-40f6-ba1c-6be90133157e.jpg)
+
+Oops! It looks like we pinged ourselves! Does that mean we have no connection? Our address tried a few times to reach out, but no answer. Let's try a web address this time. This time we will ping "www.google.com" and see what happens.
+
+![IMG_5559](https://user-images.githubusercontent.com/116504189/198416393-a66e3f95-91e8-4df5-9b96-44c3ac703cf0.jpg)
+
+Hooray! We've got a connection! as we can see, we receive a few pings back from google without any packets lost, and within a fast amount of time (talk about fast responders).
+
+Thank you for taking the time to stop by and create this virtual machine with me. :)
 
