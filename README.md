@@ -52,3 +52,30 @@ Once we've received our "validation passed" screen, click "create". CONGRATS!! Y
 ![Create-VM-win9](https://user-images.githubusercontent.com/116504189/198413583-d6867683-6e41-48de-9b26-24a5d94a5e38.png)
 
 ![Create-Vm-win10](https://user-images.githubusercontent.com/116504189/198413647-78d92f8f-e672-4306-91a8-a71b83d889e0.png)
+
+Let's go back to our virtual machine "overview", and copy our "public IP address", as well as our private IP address(scroll down further to "networking", and paste them onto our notepad (or write them down). 
+
+![Create-VM-win11](https://user-images.githubusercontent.com/116504189/198414215-3579921b-409c-464a-968b-1e233777ff75.png)
+
+![Create-VM-rd(private)](https://user-images.githubusercontent.com/116504189/198414236-b663353c-1731-47eb-84da-e7e30b64a64e.png)
+
+THIRD SECTION: Remote Desktop Control
+
+Now that we have our IP addresses written down, let's connect to our virtual machine! In the Windows searchbar, type "remote desktop connection".
+
+![Create-VM-rd0](https://user-images.githubusercontent.com/116504189/198414477-2c42339b-0b20-4124-89d6-6513ef68d0d6.png)
+
+We will now type in our PUBLIC IP address, and click "connect".
+
+![Create-VM-rd1](https://user-images.githubusercontent.com/116504189/198414549-b8d5a9e7-9ee3-4b4e-84da-cf159f3cbab5.png)
+
+Next, we will input our username, and password which we created in the previous section ( If you have other credentials, you will just select "use a different account).
+
+![Create-VM-rd2](https://user-images.githubusercontent.com/116504189/198414746-eab37856-d49e-4620-adf2-1e3c6681ed0b.png)
+
+![Create-VM-rd3](https://user-images.githubusercontent.com/116504189/198414753-70701186-72e2-4720-8462-d13b8a45fe28.png)
+
+After entering your credentials, you will see a pop up. Simply click "yes" to connect.
+
+![Create-VM-rd4](https://user-images.githubusercontent.com/116504189/198414837-b1da81a0-fb1b-4b20-93d0-74498b9dac80.png)
+
