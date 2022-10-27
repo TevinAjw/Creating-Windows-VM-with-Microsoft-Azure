@@ -39,3 +39,16 @@ For the research group tab, we will select the resource group we had previously 
 
 This part of the section, we will only focus on the "image", we will be working with a window, so let's select "windows 10".
 
+![Create-VM-win6](https://user-images.githubusercontent.com/116504189/198412140-5016d58b-87e7-4c0f-8fa7-16021d6c8da9.png)
+
+For the size, we want to select something with at least more than one cpu. I choose more than one because it will move faster, and reduce the latency of the virtual machine's function. Now comes the username and password, I personally recommend writing these down for further use so that you do not forget. Once finished, you can click "review + create".
+
+![Create-VM-win7](https://user-images.githubusercontent.com/116504189/198412695-d5b5af6e-6d6e-4aa3-a03c-d7f8bbe9b201.png)
+
+Once we've received our "validation passed" screen, click "create". CONGRATS!! You've just created your Windows virtual machine :). You'll want to wait until everything is fully deployed before continuing any further. Look for these next pages.
+
+![Create-VM-win8](https://user-images.githubusercontent.com/116504189/198413617-4be4837d-f277-472b-8ed4-60c94eafdde5.png)
+
+![Create-VM-win9](https://user-images.githubusercontent.com/116504189/198413583-d6867683-6e41-48de-9b26-24a5d94a5e38.png)
+
+![Create-Vm-win10](https://user-images.githubusercontent.com/116504189/198413647-78d92f8f-e672-4306-91a8-a71b83d889e0.png)
